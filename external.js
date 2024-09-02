@@ -36,10 +36,10 @@ function showDeliveryDetails(){
         deliveryReport.style.display = "block";
         userTrackingId.innerHTML = "RK428974CF";
         userName.innerHTML = "CORA LOGAN";
-        userAddress.innerHTML = "549 CHEROKEE AVENUE, CLINTON TN37716";
+        userAddress.innerHTML = "549 CHEROKEE AVENUE, CLINTON TN37716, TENESSE, UNITED STATE OF AMERICA";
         deliveryFee.innerHTML = "$3,050";
         userPhoneNumber.innerHTML = "8653963030";
-        sender.innerHTML = "Carl Owen";
+        sender.innerHTML = "KARL OWEN THOMAS";
         deliveryStatus.innerHTML = "Out for Delivery";
 
     }
