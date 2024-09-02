@@ -32,6 +32,17 @@ function showDeliveryDetails(){
         deliveryStatus.innerHTML = "Out for Delivery";
 
     }
+    else if(deliveryDetail === "RK428974CF"){
+        deliveryReport.style.display = "block";
+        userTrackingId.innerHTML = "RK428974CF";
+        userName.innerHTML = "CORA LOGAN";
+        userAddress.innerHTML = "549 CHEROKEE AVENUE, CLINTON TN37716";
+        deliveryFee.innerHTML = "$3,050";
+        userPhoneNumber.innerHTML = "8653963030";
+        sender.innerHTML = "Carl Owen";
+        deliveryStatus.innerHTML = "Out for Delivery";
+
+    }
     else if(deliveryDetail === "222"){
         deliveryReport.style.display = "block";
         userTrackingId.innerHTML = "2227";
