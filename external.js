@@ -43,6 +43,17 @@ function showDeliveryDetails(){
         deliveryStatus.innerHTML = "Out for Delivery";
 
     }
+        else if(deliveryDetail === "AJ367108KZ"){
+        deliveryReport.style.display = "block";
+        userTrackingId.innerHTML = "AJ367108KZ";
+        userName.innerHTML = "PAMELA";
+        userAddress.innerHTML = "324 5th ST SOUTH SHEFFIELD, LOWS 50475, UNITED STATES OF AMERICA";
+        deliveryFee.innerHTML = "$3,050";
+        userPhoneNumber.innerHTML = "6414308043";
+        sender.innerHTML = "KARL OWEN THOMAS";
+        deliveryStatus.innerHTML = "Out for Delivery";
+
+    }
     else if(deliveryDetail === "222"){
         deliveryReport.style.display = "block";
         userTrackingId.innerHTML = "2227";
